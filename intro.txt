@@ -1,0 +1,39 @@
+NPM - Node Package Manager
+
+Package Managers:
+Homebrew = Mac
+Chocolatey - Windows
+APT/YUM - Linux
+
+much faster way to install software!!
+
+Pip - Python
+RubyGems - RubyGems
+NPM - JavaScript
+
+You can install packages globally or locally
+command to install them globally:
+npm i -g <package>
+command to install them locally (for example just tfor the project you will be working on):
+npm i <package>
+
+
+npm init -y - y to accept the default options, to skip this process
+
+json - stands for Javascript Object Notation
+
+version: 0.0.8
+major.minor.patch
+new version.new feature.bug fix
+^0.0.8 - ^ means don't install anythong that is above version 0
+package-lock.json locks the version needed for the project, we cannot update the version! to make sure that anyone who downloads the project, can run it
+
+
+Steps:
+npm init -y
+npm i <package>
+touch .gitinit
+
+npm i --save-dev mocha
+change 'tests' to 'mocha specs'
+run test command: npm test
